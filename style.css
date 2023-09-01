@@ -1,0 +1,72 @@
+/*   FONT FAMILY AND BACKGROUND COLOR FOR SITE */
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+
+/*   CARD   */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    width: 320px;
+    height: 497px;
+    text-align: center;
+    margin-top: 152px;
+    margin-bottom: 151px;
+}
+
+/*  QR CODE IMAGE */
+
+.card img {
+    width: 288px;
+    height: 288px;
+    display: block;
+    border-radius: 10px;
+    margin: 16px;
+}
+
+/*   CARD CONTENT */
+
+.card-info {
+    margin: 16px;
+    width: 90%;
+}
+
+.card-info h1 {
+    font-size: 1.375em;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.card-info p {
+    font-size: .9375em;
+    color: hsl(220, 15%, 55%);
+    margin: 16px;
+    margin: 16px 16px 24px 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: .0112em;
+}
+
+
+
+/*   ATTRIBUTION   */
+.attribution { 
+    margin: 10px;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
